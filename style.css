@@ -38,9 +38,12 @@ form {
     margin: auto;
     margin-bottom: 30px;
     margin-top: 30px;
+    margin-left: 12%;
+    margin-right: 12%;
     border-style: solid;
     border-color: darkgray;
     padding: 30px;
+    
 
 }
 
@@ -58,3 +61,53 @@ footer {
     border-style: solid;
     border-width: thick;
 }
+.content {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: darkgray;
+    padding: 30px;
+  }
+
+img {
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin: 10px;
+  }
+
+.float-img {
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin: 10px; 
+}
+
+.textBox {
+      margin: 10px;
+      padding: 10px;
+      float: right;
+  }
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 60%; /* Set the width of the positioned div */
+} 
