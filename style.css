@@ -1,3 +1,8 @@
+.size {
+    max-width: 1500px;
+    margin: auto;
+}
+
 .header { 
     text-align: center;
     background: teal; 
@@ -6,19 +11,36 @@
     color: white;
     font-size: 24px;
     font-weight: bold;
-    width: 100%;
+    
     
 }
 
-hr {
+.firstbreak {
     max-width: 75%;
     width: 60%;
     
 }
 
+hr {
+    border-width: thin;
+}
+
+ h2 {
+     color: teal;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 24px;
+     font-weight: bold;
+ }
+
 form {
     width: 400px;
-    height: 600px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: darkgray;
+    padding: 30px;
 
 }
 
@@ -29,8 +51,9 @@ footer {
     background: grey;
     padding: 40px;
     font-size: x-small;
-    max-width: 60%;
-    margin: auto;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
     border-top: teal;
     border-style: solid;
     border-width: thick;
