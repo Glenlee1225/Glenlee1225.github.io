@@ -75,39 +75,46 @@ footer {
   }
 
 img {
-    height: 40%;
-    width: 40%;
+    height: 175px;
+    width: 100%;
+    margin-bottom: 20%;
     float: left;
-    margin: 10px;
-  }
-
-.float-img {
-    height: 40%;
-    width: 40%;
-    float: right;
-    margin: 10px; 
-}
-
-.textBox {
-      margin: 10px;
-      padding: 10px;
-      float: right;
-  }
-
-.box{
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+  }
+
+#tallCat {
+    height: auto;
 }
-.box .text{
+
+.float-Right {
+    float: right;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+
+.text-block {
     position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;        
+    background-color: teal;
+    color: white;
+    width: 100%;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.8);
-    font-family: Arial,sans-serif;
-    color: #fff;
-    width: 60%; /* Set the width of the positioned div */
-} 
+    top: 140px;
+  
+  }
+
+  p {
+      font-family: 'Times New Roman', Times, serif;
+      padding: 10px;
+      font-weight: 800;
+  }
+
+  #rockpaper {
+    height: 65px;
+  }
