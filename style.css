@@ -63,7 +63,7 @@ footer {
 }
 .content {
     width: 30%;
-    min-width: 80%;
+    min-width: 350px;
     height: 30%;
     margin: auto;
     margin-right: 12%;
@@ -99,6 +99,7 @@ img {
 
 .text-block {
     position: absolute;
+    font-size: 12px;
     background-color: teal;
     color: white;
     width: 100%;
